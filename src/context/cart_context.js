@@ -22,7 +22,7 @@ const initialState = {
   cart: getLocalStorage(),
   total_items: 0,
   total_amount: 0,
-  shipping_fees: 534,
+  shipping_fee: 534,
 };
 
 const CartContext = React.createContext();
